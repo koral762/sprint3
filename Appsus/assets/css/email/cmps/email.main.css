@@ -1,0 +1,22 @@
+
+
+.mail h3{
+    color:red;
+    height: 100%;
+}
+
+.main-mail-page{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 100%;
+}
+
+
+@media (max-width: 550px){
+    .main-mail-page{
+    }
+
+
+
+}

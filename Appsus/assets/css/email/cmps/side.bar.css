@@ -1,0 +1,85 @@
+
+
+
+.sidebar-containr{
+    background-color: rgb(240, 231, 110);
+    border: 1px solid rgb(41, 38, 38);
+    box-shadow: 5px 10px #afa7a7ad;
+    border-radius: 15px;
+    width: 20rem;
+    padding-left: 1em;
+
+}
+
+.compose{
+    margin:1em;
+    height: 3em;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.compose:hover{
+background-color: rgb(180, 177, 147);
+}
+
+/* Style the sidebar - fixed full height */
+.sidebar {
+    height: 100%;
+    width: 160px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+
+/* Style sidebar links */
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+  }
+  
+  /* Style links on mouse-over */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style the main content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+
+  .unread-emails{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    margin: 0.7em;
+    padding: 1em;
+    border-top: 1px solid black;
+  }
+  
+  .unread-emails span{
+    font-size: 1.5em;
+    color: rgb(187, 17, 17);
+  }
+
+  
+  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+  @media (max-width: 550px) {
+    .sidebar-containr{
+    }
+    
+  }
+
+
+
+
+
+
+
+
+
+

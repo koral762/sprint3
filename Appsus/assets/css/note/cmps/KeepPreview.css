@@ -1,0 +1,49 @@
+.keep-preview {
+    display: flex;
+    flex-direction: column;
+    /* display: inline; */
+    padding: 10px;
+    background-color: rgba(189, 120, 120, 0.678);
+    width: 100%;
+    border-radius: 10px;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.note-panel {
+    padding: 20px;
+    display: flex;
+}
+
+.note-panel input[type=color] {
+    height: 40px;
+    width: 40px;
+    border-width: 0;
+    border-radius: 10px;
+}
+
+.keep-preview form input {
+    width: 90%;
+    padding: 10px;
+    border-color: rgba(255, 248, 220, 0.37);
+    border-radius: 5px;
+}
+
+.keep-preview form {
+    display: flex;
+    padding: 5px;
+}
+
+.edit-btn {
+    background-image: url(../../../../_PNG\ 64/basic_gear.png);
+}
+
+.pin-btn {
+    background-image: url(../../../../_PNG\ 64/basic_pin2.png);
+}
+
+.delete-note-btn {
+    background-image: url(../../../../_PNG\ 64/basic_trashcan_remove.png);
+}
